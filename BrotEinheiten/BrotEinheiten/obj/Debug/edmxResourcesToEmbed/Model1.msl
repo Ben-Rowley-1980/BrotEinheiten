@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BrotEinheitenModelStoreContainer" CdmEntityContainer="BrotEinheitenEntities">
+    <EntitySetMapping Name="categories">
+      <EntityTypeMapping TypeName="BrotEinheitenModel.category">
+        <MappingFragment StoreEntitySet="category">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="products">
+      <EntityTypeMapping TypeName="BrotEinheitenModel.product">
+        <MappingFragment StoreEntitySet="product">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="carbsProBrotEinheit" ColumnName="carbsProBrotEinheit" />
+          <ScalarProperty Name="schaetzhilfe" ColumnName="schaetzhilfe" />
+          <ScalarProperty Name="categoryId" ColumnName="categoryId" />
+          <ScalarProperty Name="imagePath" ColumnName="imagePath" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

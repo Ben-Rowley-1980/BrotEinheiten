@@ -84,3 +84,8 @@ D:\VisualStudio2019\BrotEinheiten\BrotEinheiten\BrotEinheiten\obj\Debug\BrotEinh
 D:\VisualStudio2019\BrotEinheiten\BrotEinheiten\BrotEinheiten\obj\Debug\BrotEinheiten.csproj.CopyComplete
 D:\VisualStudio2019\BrotEinheiten\BrotEinheiten\BrotEinheiten\obj\Debug\BrotEinheiten.dll
 D:\VisualStudio2019\BrotEinheiten\BrotEinheiten\BrotEinheiten\obj\Debug\BrotEinheiten.pdb
+D:\VisualStudio2019\BrotEinheiten\BrotEinheiten\BrotEinheiten\bin\EntityFramework.dll
+D:\VisualStudio2019\BrotEinheiten\BrotEinheiten\BrotEinheiten\bin\EntityFramework.SqlServer.dll
+D:\VisualStudio2019\BrotEinheiten\BrotEinheiten\BrotEinheiten\bin\EntityFramework.xml
+D:\VisualStudio2019\BrotEinheiten\BrotEinheiten\BrotEinheiten\bin\EntityFramework.SqlServer.xml
+D:\VisualStudio2019\BrotEinheiten\BrotEinheiten\BrotEinheiten\bin\de\EntityFramework.resources.dll

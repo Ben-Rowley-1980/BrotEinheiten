@@ -1,0 +1,52 @@
+﻿@model BrotEinheiten.Models.Product.ProductListVM
+
+@{ 
+    ViewBag.Title = "Products";
+}
+
+<div class="row">
+    <h2>Products</h2>
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+            Kategorie
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            @foreach (var product in Model.Products)
+            {
+                <li><a href="#">@product.Category</a></li>
+            }
+        </ul>
+    </div>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>BE</th>
+            <th>Schätzhilfe</th>
+        </tr>
+    </thead>
+    @foreach (var product in Model.Products)
+            {
+                <tr>
+                    <td>@product.Name</td>
+                    <td>@product.CarbsProBrotEinheit</td>
+                    <td>@product.Schaetzhilfe</td>
+                </tr>
+            }
+</table>
+
+
+@*<div>
+    @foreach (var product in Model.Products)
+            {
+                <div class="row">
+                    <div>
+                        <span>@product.Name</span>
+                        <span>@product.CarbsProBrotEinheit</span>
+                        <span>@product.Schaetzhilfe</span>
+                    </div>
+                </div>
+            }
+</div>*@
